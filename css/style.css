@@ -4,12 +4,12 @@
     /* Buttons & Links */
     a {
         text-decoration: none; 
-        color: black;
+        color: rgb(70, 43, 18);
     }
     
 
     a:hover {
-    color: #800000;
+    color: rgb(255, 0, 64)
     }
     /*
     Table
@@ -29,15 +29,15 @@ table {
     }
 
     tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #000000;
     }
     tr:hover {
-    background-color: #ddd;
+    background-color: #6fb6a6;
     }
     th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #800000;
+    background-color: #19413d;
     color: white;
 }

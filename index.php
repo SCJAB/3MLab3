@@ -23,6 +23,7 @@
         </p> 
         <div>
             <a href="user/create.php">Add User</a>
+            <a href="../3MLab3/index.php">Home</a>
         </div>
         <table>
             <thead>
