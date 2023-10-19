@@ -6,18 +6,23 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
-    <body>
+    <body> 
         <h3>Users</h3>
         <p>
             <?php
             if (isset($_GET['save-success'])) {
-                echo "Successfully saved";
-                }
+                echo '<script>alert("Successfully saved")</script>';
+            }
+            if (isset($_GET['update-user'])) {
+                echo '<script>alert("Successfully saved")</script>';
+            }
+            if (isset($_GET['delete.php'])) {
+                echo '<script>alert("Successfully saved")</script>';
+            }
             ?>
         </p> 
         <div>
             <a href="user/create.php">Add User</a>
-            <a href="../3MLab3/index.php">Home</a>
         </div>
         <table>
             <thead>
