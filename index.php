@@ -19,7 +19,6 @@
             <a href="user/create.php">Add User</a>
             <a href="../3MLab3/index.php">Home</a>
         </div>
-    </div> 
         <table>
             <thead>
                 <th>ID</th>
@@ -40,12 +39,10 @@
                         </td>
                         <td class="capitalize"><?php echo $row['gender']; ?></td> 
                         <td>
-                            <!-- user/edit.php?id=<?php echo $row['id']; ?> -->
-                            <a href="">
+                            <a href="user/edit.php?id=<?php echo $row['id']; ?>">
                                 Edit
                             </a>
-                            <!-- die("Connection failed: ".$conn->connect_error); -->
-                            <a href="">
+                            <a href="php/user/delete.php?id=<?php echo $row['id']; ?>">
                                 Delete
                             </a>
                         </td>
