@@ -27,9 +27,9 @@
             </div>
             <div>
                 <label>Gender</label><br />
-                <input type="radio" name="gender" value="male" <?php if ($row['gender'] == 'male') echo 'checked'; ?> /> Male 
-                <input type="radio" name="gender" value="female" <?php if ($row['gender'] == 'female') echo 'checked'; ?> /> Female 
-                <input type="radio" name="gender" value="other" <?php if ($row['gender'] == 'other') echo 'checked'; ?> /> Other 
+                <input type="radio" name="gender" value="male" <?php if ($row['gender'] == 'Male') echo 'checked'; ?> /> Male 
+                <input type="radio" name="gender" value="female" <?php if ($row['gender'] == 'Female') echo 'checked'; ?> /> Female 
+                <input type="radio" name="gender" value="other" <?php if ($row['gender'] == 'Other') echo 'checked'; ?> /> Other 
             </div>
             <div>
                 <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
